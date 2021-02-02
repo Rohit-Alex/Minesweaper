@@ -1,0 +1,51 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-color:lightsteelblue;
+    background-color:lightgoldenrodyellow;
+    margin: auto;
+}
+.grid div {
+    height: 50px;
+    width: 50px;
+    border-style: ridge;
+}
+
+.bomb {
+    background-color: red;
+    background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+}
+.checked {
+    background-color: green;
+}
+
+#resetButton{
+    padding:  10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    color:slategray;
+    border-end-end-radius:inherit;
+    border-color:aliceblue;
+    font-size:large;
+    background-color:lavender;
+    position: absolute;
+    left: 48%;
+}
+.grandTotal{
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    color:slategray;
+    text-align: center;
+}
+#resultDisplay{
+    padding: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    font-style:oblique;
+    color:darkcyan;
+    align-content: center;
+    text-align: center;
+}
