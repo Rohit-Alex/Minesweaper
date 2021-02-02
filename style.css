@@ -1,10 +1,11 @@
 .grid {
     height: 500px;
-    width: 500px;
+    width: 494px;
     display: flex;
     flex-wrap: wrap;
-    border-color:lightsteelblue;
     background-color:lightgoldenrodyellow;
+    border-color:lightsteelblue;
+    
     margin: auto;
 }
 .grid div {
